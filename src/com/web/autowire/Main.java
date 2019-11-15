@@ -9,5 +9,11 @@ public class Main {
         Person p = (Person) aptx.getBean("person");
         System.out.println(p.toString());
 
+        Person p1 = (Person) aptx.getBean("person1");
+        System.out.println(p1);
+
+        Person p2 = (Person) aptx.getBean("person3");
+        System.out.println(p2);
+
     }
 }
