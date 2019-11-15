@@ -14,3 +14,7 @@
 
 ###3. Scope
 默认单例模式，但是可定义为prototype，每次建bean会新建对象
+
+## 外部属性
+主要使用包：
+**c3p0** **mysql-connector**

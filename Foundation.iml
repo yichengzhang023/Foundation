@@ -9,6 +9,9 @@
         <fileset id="fileset2" name="Autowire" removed="false">
           <file>file://$MODULE_DIR$/src/autowire.xml</file>
         </fileset>
+        <fileset id="fileset3" name="Beans Properties" removed="false">
+          <file>file://$MODULE_DIR$/src/beans-properties.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>
@@ -20,5 +23,14 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Spring-4.3.18.RELEASE" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.18.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

@@ -19,4 +19,8 @@ public class DataSource {
                 "properties=" + properties +
                 '}';
     }
+
+    public boolean getConnection() {
+        return true;
+    }
 }
