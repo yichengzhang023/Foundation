@@ -35,8 +35,8 @@
         <!--list，set用ref引入其他bean， map用entry value-ref 引入其他bean-->
         <property name="carList">
             <list>
-                <ref bean="car"></ref>
-                <ref bean="car2"></ref>
+                <ref bean="car"/>
+                <ref bean="car2"/>
             </list>
         </property>
     </bean>
@@ -57,7 +57,7 @@
     </bean>
     <!--直接定义list 可以作为ref传给其他bean-->
     <util:list id="cars">
-        <ref bean="car"></ref>
-        <ref bean="car2"></ref>
+        <ref bean="car"/>
+        <ref bean="car2"/>
     </util:list>
 </beans>

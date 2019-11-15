@@ -1,5 +1,7 @@
 package com.web.spring;
 
+import org.springframework.beans.factory.config.ListFactoryBean;
+
 import java.util.List;
 
 public class Person {
@@ -13,12 +15,6 @@ public class Person {
         return carList;
     }
 
-    public void setCarList(List<Car> carList) {
-        for (Car car : this.carList = carList) {
-            
-        }
-        ;
-    }
 
     public String getName() {
         return name;
@@ -52,5 +48,9 @@ public class Person {
                 ", carList=" + carList +
                 ", car=" + car +
                 '}';
+    }
+
+    public void setCarList(List<Car> carList) {
+        this.carList = carList;
     }
 }
