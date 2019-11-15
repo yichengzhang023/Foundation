@@ -19,7 +19,11 @@ IoC模式，系统中通过引入实现了IoC模式的IoC容器，即可由IoC�
 ```
 ApplicationContext：IOC容器，使用ClassPathXmlApplicationContext作为实现类。
 ```
-[具体代码](../Foundation/doc/Part1.md)
+```
+xml中使用<beans> 定义此文件命名空间，引入命名空间。
+<bean> 配置bean
+```
+[具体代码](./doc/Part1.md)
 
 
 
