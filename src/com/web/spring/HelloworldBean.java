@@ -1,9 +1,10 @@
 package com.web.spring;
+
 public class HelloworldBean {
 
     private String name;
 
-    public HelloworldBean(){
+    public HelloworldBean() {
         System.out.println("DEFAULT CONSTRUCTOR");
 
     }
@@ -12,7 +13,7 @@ public class HelloworldBean {
         this.name = name;
     }
 
-    public void hello(){
+    public void hello() {
         System.out.println("Name is:" + name);
     }
 }
