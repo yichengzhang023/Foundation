@@ -22,8 +22,16 @@ ApplicationContext：IOC容器，使用ClassPathXmlApplicationContext作为实�
 ```
 xml中使用<beans> 定义此文件命名空间，引入命名空间。
 <bean> 配置bean
+ <配置bean
+    id: 引用bean(bean的引用)
+    class：bean的全类名
+    property：属性注入，使用类里的set方法
+    用反射的方式在IOC容器中创建bean，所以要求bean中必须有无参构造器>
+ 其他配置方式见文件
 ```
 [具体代码](./doc/Part1.md)
+### 1.4 自动装配
+[自动装配](./doc/Part2.md)
 
 
 

@@ -6,6 +6,9 @@
         <fileset id="fileset" name="ApplicationContext" removed="false">
           <file>file://$MODULE_DIR$/src/applicationContext.xml</file>
         </fileset>
+        <fileset id="fileset2" name="Autowire" removed="false">
+          <file>file://$MODULE_DIR$/src/autowire.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>
