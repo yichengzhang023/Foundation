@@ -9,7 +9,7 @@
     </bean>
     <bean id="beijing" class="com.web.autowire.Address" p:city="Beijing" abstract="true"/>
 <!--    bean之间的继承关系   -->
-    <bean id="address2" parent="beijing" p:address="Wudaokou"/>
+    <bean id="address2" parent="beijing" p:address="Wudaokou" scope="prototype"/>
     <bean id="address3" parent="beijing" p:address="Zhongguanchun"/>
     <bean id="address1" class="com.web.autowire.Address">
         <property name="address" value="Chongqing"/>
