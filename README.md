@@ -37,7 +37,7 @@ xml中使用<beans> 定义此文件命名空间，引入命名空间。
 ### 1.6 外部属性(连接mysql)
 [外部属性](./doc/Part3.md)
 ### 1.7 SPEL
-
+[SPEL](./doc/Part4.md)
 
 
 
