@@ -18,3 +18,22 @@
 ## 外部属性
 主要使用包：
 **c3p0** **mysql-connector**
+### XML配置代码片段
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="user" value="${user}"/>
+        <property name="password" value="${password}"/>
+        <property name="driverClass" value="${driverclass}"/>
+        <property name="jdbcUrl" value="${jdbcurl}"/>
+    </bean>
+
+    <context:property-placeholder location="classpath:db.properties"/>
+</beans>
+```
+两种方式，直接定义value或者用db.properties 定义，用placeholder引入
+${} 引入值
