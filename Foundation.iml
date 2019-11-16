@@ -12,6 +12,9 @@
         <fileset id="fileset3" name="Beans Properties" removed="false">
           <file>file://$MODULE_DIR$/src/beans-properties.xml</file>
         </fileset>
+        <fileset id="fileset4" name="Beans Spel" removed="false">
+          <file>file://$MODULE_DIR$/src/beans-spel.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>
