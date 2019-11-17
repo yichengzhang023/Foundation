@@ -38,6 +38,8 @@ xml中使用<beans> 定义此文件命名空间，引入命名空间。
 [外部属性](./doc/Part3.md)
 ### 1.7 SPEL
 [SPEL](./doc/Part4.md)
+### 1.8 生命周期
+[生命周期](./doc/Part5.md)
 
 
 

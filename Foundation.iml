@@ -15,6 +15,9 @@
         <fileset id="fileset4" name="Beans Spel" removed="false">
           <file>file://$MODULE_DIR$/src/beans-spel.xml</file>
         </fileset>
+        <fileset id="fileset5" name="Beans Lifecycle" removed="false">
+          <file>file://$MODULE_DIR$/src/beans-lifecycle.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>
