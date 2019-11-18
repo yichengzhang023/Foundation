@@ -40,6 +40,8 @@ xml中使用<beans> 定义此文件命名空间，引入命名空间。
 [SPEL](./doc/Part4.md)
 ### 1.8 生命周期
 [生命周期](./doc/Part5.md)
+### 1.9 工厂方法配置bean
+[生命周期](./doc/Part6.md)
 
 
 

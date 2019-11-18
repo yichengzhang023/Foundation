@@ -2,7 +2,7 @@
 <!--xml namespace 引入 可以引入p-->
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
-       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:p="http://www.springframework.org/schema/p" xmlns:c="http://www.springframework.org/schema/c"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
     <!--配置bean
     id: 引用bean
@@ -14,10 +14,7 @@
         <property name="name" value="Yicheng"/>
     </bean>
 
-    <bean id="car" class="com.web.spring.Car">
-        <constructor-arg value="Audi"/>
-        <constructor-arg value="300000"/>
-    </bean>
+    <bean id="car" class="com.web.spring.Car" c:brand="Audi" c:price="300000"/>
     <!--    属性和位置可以同时使用区分重载的构造器-->
     <bean id="car2" class="com.web.spring.Car">
         <constructor-arg value="200000" type="int"/>
