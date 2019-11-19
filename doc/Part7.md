@@ -20,3 +20,9 @@ IOC中存在多个类型兼容的bean时，可以用qualifier提供Bean的名称
 @Qualifier("test")
 //已有名字为test的类被注解了
 ```
+
+### 泛型依赖注入
+子类不用注入实例，通过父类自动装配即可详见
+[泛型依赖注入](https://www.cnblogs.com/solverpeng/p/5687304.html)
+
+
