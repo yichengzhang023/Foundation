@@ -2,7 +2,7 @@ package com.web.annotation.repository;
 
 import org.springframework.stereotype.Repository;
 
-@Repository("userRepository")
+@Repository("test")
 public class UserRepositoryImpl implements UserRepository{
     @Override
     public void save() {
